@@ -1,4 +1,398 @@
-Hi Everyone!
+<div align="center">
 
-<img src="https://camo.githubusercontent.com/95d7684febbf0478e4cdfc78da5f8b0afbbb4af6b204ad1273d664e336c6a809/68747470733a2f2f726561646d652d747970696e672d7376672e64656d6f6c61622e636f6d3f666f6e743d466972612b436f64652673697a653d34302670617573653d3130303026636f6c6f723d303030304646266261636b67726f756e643d42384238423830302663656e7465723d74727565266d756c74696c696e653d747275652677696474683d353030266865696768743d313030266c696e65733d53696dc3b36e2b566974726961676f3b466c75747465722b446576656c6f706572" alt="Typing SVG" data-canonical-src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=40&amp;pause=1000&amp;color=0000FF&amp;background=B8B8B800&amp;center=true&amp;multiline=true&amp;width=500&amp;height=100&amp;lines=Simón+Vitriago;Arduino and PLC+Developer" style="max-width: 100%;">
+👋 ¡Hola! Soy Simón Vitriago
 
+Ingeniero Electricista · Desarrollador Full Stack · Automatización · IoT · IA aplicada
+
+Construyo soluciones que conectan software, automatización, electrónica, datos e inteligencia artificial para resolver problemas reales.
+
+
+
+
+
+</div>
+
+🚀 Sobre mí
+
+Soy ingeniero electricista y desarrollador de software, enfocado en crear productos digitales completos: desde la idea y la arquitectura hasta el despliegue, la automatización y la integración con sistemas físicos.
+
+🌐 Desarrollo aplicaciones web modernas y responsivas.
+
+⚙️ Automatizo procesos con n8n, APIs, webhooks y bases de datos.
+
+🏭 Integro software con PLC, SCADA, Arduino, sensores e IoT.
+
+🤖 Aplico inteligencia artificial a educación, contenido y productividad.
+
+📊 Diseño dashboards, sistemas administrativos y herramientas de análisis.
+
+🚀 Despliego proyectos en Vercel, VPS, Docker, PM2 y servicios cloud.
+
+🎓 Comparto conocimientos sobre programación, electrónica e IA.
+
+🧭 Ecosistema de proyectos
+
+flowchart TB
+    SV["👨‍💻 Simón Vitriago<br/>Ingeniería + Software + Automatización"]
+
+    SV --> IND["🏭 Industria e IoT"]
+    SV --> WEB["🌐 Productos Web"]
+    SV --> AUTO["⚙️ Automatización"]
+    SV --> EDU["🎓 Educación"]
+    SV --> NEG["💼 Negocios Digitales"]
+    SV --> IA["🤖 IA y Contenido"]
+
+    IND --> SCADA["Sorter SCADA<br/>PLC Siemens + Node.js + PostgreSQL"]
+    IND --> ARDUINO["Control Arduino Web<br/>SerialPort + Interfaces Web"]
+    IND --> SOCKET["Socket Server<br/>Comunicación en tiempo real"]
+
+    WEB --> COCUYO["Cocuyotec SPA<br/>Agencia tecnológica"]
+    WEB --> PORTFOLIO["Portafolios profesionales"]
+    WEB --> ECOMMERCE["Tiendas y catálogos"]
+    WEB --> CLIENTES["Webs para clientes y marcas"]
+
+    AUTO --> N8N["Flujos n8n"]
+    AUTO --> WHATSAPP["WhatsApp Business"]
+    AUTO --> APIS["APIs + Webhooks"]
+    AUTO --> DATA["Firebase / PostgreSQL / Supabase"]
+
+    EDU --> SOPHIA["Soph-IA<br/>Tutora virtual"]
+    EDU --> ALURA["Challenges Alura ONE"]
+    EDU --> JUEGOS["Juegos educativos"]
+    EDU --> CALC["Calculadoras y utilidades"]
+
+    NEG --> REMESAS["Sistema de remesas"]
+    NEG --> ORBI["ORBI Ecosystem"]
+    NEG --> CAPITAL["WOS Capital Humano"]
+    NEG --> LIBROS["Plataformas editoriales"]
+
+    IA --> VIDEOS["Contenido audiovisual con IA"]
+    IA --> MUSICA["Música generativa"]
+    IA --> NEWS["Contenido y noticias"]
+
+⭐ Proyectos destacados
+
+🏭 Sorter SCADA — Supervisión industrial en tiempo real
+
+Sistema SCADA web diseñado para monitorear y analizar una línea de clasificación logística.
+
+flowchart LR
+    PLC["PLC Siemens S7"] --> API["Backend Node.js"]
+    API --> WS["WebSocket"]
+    API --> DB["PostgreSQL"]
+    WS --> UI["Dashboard SCADA"]
+    DB --> KPI["KPIs y reportes"]
+    UI --> OP["Operadores"]
+    KPI --> MG["Gestión"]
+
+Características principales
+
+Lectura de señales del PLC y simulación en modo mock.
+
+Monitoreo de rampas, ocupación, fallas y pausas.
+
+Producción por hora y acumulados por turno.
+
+Cálculo de KPIs desde el backend.
+
+Persistencia histórica en PostgreSQL.
+
+Dashboard operativo y panel gerencial.
+
+Arquitectura preparada para Siemens S7, PLCSIM y entorno industrial.
+
+Tecnologías: Node.js · Express · WebSocket · PostgreSQL · Siemens S7 · TIA Portal · PLCSIM · Factory I/O
+
+✨ Cocuyotec SPA — Agencia tecnológica
+
+Ecosistema digital para ofrecer soluciones de desarrollo y automatización.
+
+mindmap
+  root((Cocuyotec))
+    Desarrollo Web
+      Landing pages
+      Sitios corporativos
+      Plataformas
+      E-commerce
+    Aplicaciones
+      Android
+      iOS
+      PWA
+    Automatización
+      n8n
+      APIs
+      WhatsApp
+      Integraciones
+    Contenido
+      Edición de video
+      IA generativa
+      Branding
+
+🌐 Sitio: cocuyotec.com📁 Repositorio: cypictronic05/cocuyotec
+
+🤖 Soph-IA — Tutora virtual educativa
+
+Proyecto educativo que combina una interfaz web con herramientas interactivas para apoyar el aprendizaje.
+
+flowchart LR
+    STUDENT["👩‍🎓 Estudiante"] --> CHAT["Interfaz educativa"]
+    CHAT --> LOGIC["Motor pedagógico"]
+    LOGIC --> MATH["MathJax"]
+    LOGIC --> CONTENT["Ejercicios y explicaciones"]
+    LOGIC --> FEEDBACK["Retroalimentación"]
+
+Enfoque: matemáticas, aprendizaje guiado, ejercicios interactivos y apoyo mediante IA.
+
+Repositorios relacionados:
+
+tutora-virtual-sophia-privacy-policy
+
+web-ingles-sophia-unit7
+
+horario-sophia
+
+🔌 Control Arduino desde la web
+
+Aplicación para comunicar una interfaz web con Arduino y dispositivos electrónicos.
+
+sequenceDiagram
+    participant U as Usuario
+    participant W as Interfaz Web
+    participant N as Node.js
+    participant S as SerialPort
+    participant A as Arduino
+
+    U->>W: Ejecuta una acción
+    W->>N: Envía comando
+    N->>S: Escribe en puerto serial
+    S->>A: Transmite instrucción
+    A-->>S: Devuelve estado
+    S-->>N: Lectura del dispositivo
+    N-->>W: Actualiza interfaz
+
+📁 control-arduino-web📁 node-arduino-serialport📁 socket-server
+
+💸 Plataforma de operaciones y remesas
+
+Sistema orientado a administrar solicitudes, tasas, cálculos, comprobantes y operaciones internacionales.
+
+flowchart LR
+    CLIENT["Cliente"] --> WA["WhatsApp Business"]
+    WA --> N8N["Automatización n8n"]
+    N8N --> RATES["Tasas"]
+    N8N --> DB["Firebase / Base de datos"]
+    N8N --> OPS["Gestión de operaciones"]
+    OPS --> PAY["Pago destino"]
+    PAY --> RECEIPT["Comprobante"]
+    RECEIPT --> RECORD["Registro administrativo"]
+
+Componentes trabajados: automatización de atención, cálculo de operaciones, gestión por país, validación de comprobantes y registro administrativo.
+
+🌐 ORBI Ecosystem
+
+Plataforma web que presenta un ecosistema de soluciones tecnológicas y servicios digitales.
+
+🔗 orbiecosystem.vercel.app
+
+👥 WOS Capital Humano
+
+Plataforma corporativa para reclutamiento y selección de personal, orientada especialmente a minería y otros sectores productivos.
+
+flowchart LR
+    COMPANY["Empresa"] --> REQUEST["Solicitud de personal"]
+    REQUEST --> FILTER["Evaluación de perfiles"]
+    FILTER --> CANDIDATES["Candidatos"]
+    CANDIDATES --> INTERVIEW["Entrevista"]
+    INTERVIEW --> SHORTLIST["Selección"]
+    SHORTLIST --> HIRE["Contratación"]
+
+🔗 woscapitalhumano.cl
+
+📚 Salvador Escritor
+
+Plataforma web de presentación y comercialización de obras editoriales.
+
+📁 salvador-escritor
+
+🧩 Más proyectos públicos
+
+Proyecto
+
+Descripción
+
+challenge-portafolio-2025
+
+Portafolio profesional moderno
+
+personal-portfolio-2024
+
+Portafolio personal de desarrollador
+
+challenge-aluraGeek
+
+Catálogo tipo e-commerce
+
+challenge-encriptador-alura
+
+Encriptador y desencriptador de texto
+
+Alura-One-Backend1
+
+Prácticas y retos backend
+
+alura-temporizador
+
+Temporizador interactivo
+
+alura-midi
+
+Instrumento musical web
+
+juego-secreto
+
+Juego de lógica y números
+
+tren-movimiento
+
+Animación y movimiento web
+
+anatomy
+
+Proyecto visual y educativo
+
+capitales-paises
+
+Aplicación educativa de geografía
+
+digito-verificador
+
+Utilidad para validación de datos
+
+presupuesto
+
+Herramienta de cálculo de presupuestos
+
+Artesania-Sergio-Rojas
+
+Web comercial para artesanía
+
+sergiorojascreaciones
+
+Sitio de marca y catálogo
+
+mercado-pago-documentacion
+
+Integración y documentación de pagos
+
+🛠️ Tecnologías
+
+Frontend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,astro,bootstrap,tailwind" />
+</p>
+
+Backend y datos
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,python,postgres,supabase,firebase,mongodb" />
+</p>
+
+DevOps y despliegue
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,docker,vercel,linux,nginx" />
+</p>
+
+Electrónica, automatización e industria
+
+<p>
+  <img src="https://skillicons.dev/icons?i=arduino,raspberrypi" />
+</p>
+
+Siemens PLC / TIA Portal
+
+PLCSIM y Factory I/O
+
+Comunicación serial
+
+WebSocket y sistemas en tiempo real
+
+SCADA web
+
+n8n, APIs REST y webhooks
+
+WhatsApp Business y automatización de procesos
+
+🏗️ Cómo construyo soluciones
+
+flowchart LR
+    IDEA["💡 Problema"] --> ANALYSIS["🔎 Análisis"]
+    ANALYSIS --> UX["🎨 UX/UI"]
+    UX --> ARCH["🏗️ Arquitectura"]
+    ARCH --> DEV["💻 Desarrollo"]
+    DEV --> TEST["🧪 Pruebas"]
+    TEST --> DEPLOY["🚀 Despliegue"]
+    DEPLOY --> DATA["📊 Medición"]
+    DATA --> IMPROVE["🔁 Mejora continua"]
+    IMPROVE --> ANALYSIS
+
+Mi objetivo no es solamente escribir código, sino entregar soluciones útiles, medibles, mantenibles y preparadas para crecer.
+
+📊 Estadísticas de GitHub
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=cypictronic05&show_icons=true&theme=tokyonight&hide_border=true&locale=es" />
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cypictronic05&layout=compact&theme=tokyonight&hide_border=true&locale=es" />
+
+<img src="https://streak-stats.demolab.com?user=cypictronic05&theme=tokyonight&hide_border=true&locale=es" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=cypictronic05&theme=tokyo-night&hide_border=true" />
+
+</div>
+
+🎯 Actualmente estoy trabajando en
+
+Sistemas SCADA web e integración con PLC.
+
+Aplicaciones empresariales con Node.js y PostgreSQL.
+
+Automatización de atención y operaciones mediante n8n.
+
+Productos digitales para Cocuyotec SPA.
+
+Herramientas educativas asistidas por IA.
+
+Integraciones entre software, electrónica y procesos reales.
+
+🤝 Colaboraciones
+
+Me interesan proyectos relacionados con:
+
+Automatización industrial.
+
+Plataformas web empresariales.
+
+Inteligencia artificial aplicada.
+
+Educación tecnológica.
+
+IoT y electrónica.
+
+Sistemas administrativos.
+
+Transformación digital para pequeñas y medianas empresas.
+
+<div align="center">
+
+📬 Conectemos
+
+¿Tienes una idea, un proceso que automatizar o un proyecto tecnológico?
+
+
+
+⚡ Ingeniería que conecta ideas, software y tecnología.
+
+</div>
